@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Lato&family=Montserrat&family=Source+Code+Pro&display=swap');
+
+.header {
+    font-family: 'Source Code Pro', monospace;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #48278F;
+    box-shadow: 0px 1px 6px darkgrey;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0px 80px;
+}
+.logo svg {
+    margin-top: 20px;
+    height: 80px;
+    width: 195px;
+}
+.logo text {
+    font-weight: 800;
+    font-size: 24px;
+
+}
+.menu {
+    display: flex;
+    gap: 20px;
+}
+button  {
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 550;
+    font-size: 18px;
+    background-color: #84C206;
+    color: #48278F;
+    padding: 8px 16px;
+    border-radius: 16px;
+    transition: background-color 0.3s ease;
+    border: 1px solid transparent;
+    white-space: nowrap;
+}
+
+button:hover {
+    background-color: #48278F;
+    color: #84C206;
+    border: solid 1px #84C206;
+}
+.downloadButton {
+    background-color: #48278F;
+    color: #84C206;
+    border: solid 1px #84C206;
+}
+.downloadButton:hover {
+    background-color: #48278F;
+    color: #84C206;
+    border: solid 1px #84C206;
+}
+.content {
+    background-color: #B1DB5C;
+    width: auto;
+    height: 860px;
+}
